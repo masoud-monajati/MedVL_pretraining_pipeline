@@ -1,0 +1,207 @@
+nohup: ignoring input
+| distributed init (rank 0, word 1): env://
+Creating dataset
+loading /home/monajati/main/med/blip/med_data/med_captions_processed.json
+number of training samples: 39535
+Creating model
+/embeddings/word_embeddings is tied
+/embeddings/position_embeddings is tied
+/embeddings/LayerNorm is tied
+/encoder/layer/0/crossattention/self/query is tied
+/encoder/layer/0/crossattention/self/key is tied
+/encoder/layer/0/crossattention/self/value is tied
+/encoder/layer/0/crossattention/output/dense is tied
+/encoder/layer/0/crossattention/output/LayerNorm is tied
+/encoder/layer/0/intermediate/dense is tied
+/encoder/layer/0/output/dense is tied
+/encoder/layer/0/output/LayerNorm is tied
+/encoder/layer/1/crossattention/self/query is tied
+/encoder/layer/1/crossattention/self/key is tied
+/encoder/layer/1/crossattention/self/value is tied
+/encoder/layer/1/crossattention/output/dense is tied
+/encoder/layer/1/crossattention/output/LayerNorm is tied
+/encoder/layer/1/intermediate/dense is tied
+/encoder/layer/1/output/dense is tied
+/encoder/layer/1/output/LayerNorm is tied
+/encoder/layer/2/crossattention/self/query is tied
+/encoder/layer/2/crossattention/self/key is tied
+/encoder/layer/2/crossattention/self/value is tied
+/encoder/layer/2/crossattention/output/dense is tied
+/encoder/layer/2/crossattention/output/LayerNorm is tied
+/encoder/layer/2/intermediate/dense is tied
+/encoder/layer/2/output/dense is tied
+/encoder/layer/2/output/LayerNorm is tied
+/encoder/layer/3/crossattention/self/query is tied
+/encoder/layer/3/crossattention/self/key is tied
+/encoder/layer/3/crossattention/self/value is tied
+/encoder/layer/3/crossattention/output/dense is tied
+/encoder/layer/3/crossattention/output/LayerNorm is tied
+/encoder/layer/3/intermediate/dense is tied
+/encoder/layer/3/output/dense is tied
+/encoder/layer/3/output/LayerNorm is tied
+/encoder/layer/4/crossattention/self/query is tied
+/encoder/layer/4/crossattention/self/key is tied
+/encoder/layer/4/crossattention/self/value is tied
+/encoder/layer/4/crossattention/output/dense is tied
+/encoder/layer/4/crossattention/output/LayerNorm is tied
+/encoder/layer/4/intermediate/dense is tied
+/encoder/layer/4/output/dense is tied
+/encoder/layer/4/output/LayerNorm is tied
+/encoder/layer/5/crossattention/self/query is tied
+/encoder/layer/5/crossattention/self/key is tied
+/encoder/layer/5/crossattention/self/value is tied
+/encoder/layer/5/crossattention/output/dense is tied
+/encoder/layer/5/crossattention/output/LayerNorm is tied
+/encoder/layer/5/intermediate/dense is tied
+/encoder/layer/5/output/dense is tied
+/encoder/layer/5/output/LayerNorm is tied
+/encoder/layer/6/crossattention/self/query is tied
+/encoder/layer/6/crossattention/self/key is tied
+/encoder/layer/6/crossattention/self/value is tied
+/encoder/layer/6/crossattention/output/dense is tied
+/encoder/layer/6/crossattention/output/LayerNorm is tied
+/encoder/layer/6/intermediate/dense is tied
+/encoder/layer/6/output/dense is tied
+/encoder/layer/6/output/LayerNorm is tied
+/encoder/layer/7/crossattention/self/query is tied
+/encoder/layer/7/crossattention/self/key is tied
+/encoder/layer/7/crossattention/self/value is tied
+/encoder/layer/7/crossattention/output/dense is tied
+/encoder/layer/7/crossattention/output/LayerNorm is tied
+/encoder/layer/7/intermediate/dense is tied
+/encoder/layer/7/output/dense is tied
+/encoder/layer/7/output/LayerNorm is tied
+/encoder/layer/8/crossattention/self/query is tied
+/encoder/layer/8/crossattention/self/key is tied
+/encoder/layer/8/crossattention/self/value is tied
+/encoder/layer/8/crossattention/output/dense is tied
+/encoder/layer/8/crossattention/output/LayerNorm is tied
+/encoder/layer/8/intermediate/dense is tied
+/encoder/layer/8/output/dense is tied
+/encoder/layer/8/output/LayerNorm is tied
+/encoder/layer/9/crossattention/self/query is tied
+/encoder/layer/9/crossattention/self/key is tied
+/encoder/layer/9/crossattention/self/value is tied
+/encoder/layer/9/crossattention/output/dense is tied
+/encoder/layer/9/crossattention/output/LayerNorm is tied
+/encoder/layer/9/intermediate/dense is tied
+/encoder/layer/9/output/dense is tied
+/encoder/layer/9/output/LayerNorm is tied
+/encoder/layer/10/crossattention/self/query is tied
+/encoder/layer/10/crossattention/self/key is tied
+/encoder/layer/10/crossattention/self/value is tied
+/encoder/layer/10/crossattention/output/dense is tied
+/encoder/layer/10/crossattention/output/LayerNorm is tied
+/encoder/layer/10/intermediate/dense is tied
+/encoder/layer/10/output/dense is tied
+/encoder/layer/10/output/LayerNorm is tied
+/encoder/layer/11/crossattention/self/query is tied
+/encoder/layer/11/crossattention/self/key is tied
+/encoder/layer/11/crossattention/self/value is tied
+/encoder/layer/11/crossattention/output/dense is tied
+/encoder/layer/11/crossattention/output/LayerNorm is tied
+/encoder/layer/11/intermediate/dense is tied
+/encoder/layer/11/output/dense is tied
+/encoder/layer/11/output/LayerNorm is tied
+resume checkpoint from /home/monajati/main/med/blip/model_base.pth
+args.gpu 0
+Start training
+Train Epoch: [0]  [   0/3953]  eta: 15:20:56  lr: 0.000001  loss_ita: 4.7094  loss_itm: 2.0780  loss_lm: 8.2256  time: 13.9784  data: 8.4432  max mem: 17311
+Train Epoch: [0]  [  50/3953]  eta: 1:58:58  lr: 0.000006  loss_ita: 4.9521  loss_itm: 0.6221  loss_lm: 6.5999  time: 1.5690  data: 0.7922  max mem: 20296
+Train Epoch: [0]  [ 100/3953]  eta: 2:04:09  lr: 0.000011  loss_ita: 4.3376  loss_itm: 0.7432  loss_lm: 6.5458  time: 1.9282  data: 1.1517  max mem: 20296
+Train Epoch: [0]  [ 150/3953]  eta: 1:58:18  lr: 0.000015  loss_ita: 3.7977  loss_itm: 0.5985  loss_lm: 5.8878  time: 1.9052  data: 1.1268  max mem: 20296
+Train Epoch: [0]  [ 200/3953]  eta: 2:02:45  lr: 0.000020  loss_ita: 3.8911  loss_itm: 0.6633  loss_lm: 5.6829  time: 1.9483  data: 1.1707  max mem: 20296
+Train Epoch: [0]  [ 250/3953]  eta: 1:59:16  lr: 0.000025  loss_ita: 3.4716  loss_itm: 0.6829  loss_lm: 5.9860  time: 1.8136  data: 1.0380  max mem: 20296
+Train Epoch: [0]  [ 300/3953]  eta: 1:58:12  lr: 0.000030  loss_ita: 3.0759  loss_itm: 0.6468  loss_lm: 5.5812  time: 2.1172  data: 1.3394  max mem: 20296
+Train Epoch: [0]  [ 350/3953]  eta: 1:57:14  lr: 0.000030  loss_ita: 3.2888  loss_itm: 0.5920  loss_lm: 5.4503  time: 2.2443  data: 1.4686  max mem: 20296
+Train Epoch: [0]  [ 400/3953]  eta: 1:55:30  lr: 0.000030  loss_ita: 3.2621  loss_itm: 0.4893  loss_lm: 5.4548  time: 2.0863  data: 1.3116  max mem: 20296
+Train Epoch: [0]  [ 450/3953]  eta: 1:53:23  lr: 0.000030  loss_ita: 3.6910  loss_itm: 0.5504  loss_lm: 5.4981  time: 1.9643  data: 1.1890  max mem: 20296
+Train Epoch: [0]  [ 500/3953]  eta: 1:51:03  lr: 0.000030  loss_ita: 2.9578  loss_itm: 0.5856  loss_lm: 4.8597  time: 1.8065  data: 1.0313  max mem: 20296
+Traceback (most recent call last):
+  File "pretrain.py", line 176, in <module>
+    main(args, config)
+  File "pretrain.py", line 133, in main
+    train_stats = train(model, data_loader, optimizer, epoch, device, config) 
+  File "pretrain.py", line 48, in train
+    for i, (image, caption) in enumerate(metric_logger.log_every(data_loader, print_freq, header)):
+  File "/home/monajati/main/med/blip/utils.py", line 156, in log_every
+    for obj in iterable:
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1347, in _next_data
+    return self._process_data(data)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1373, in _process_data
+    data.reraise()
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+google.api_core.exceptions.ServiceUnavailable: 503 Caught ServiceUnavailable in DataLoader worker process 2.
+Original Traceback (most recent call last):
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Authentication backend unavailable."
+	debug_error_string = "{"created":"@1658009103.459203545","description":"Error received from peer ipv4:142.251.40.42:443","file":"src/core/lib/surface/call.cc","file_line":966,"grpc_message":"Authentication backend unavailable.","grpc_status":14}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/monajati/main/med/blip/data/pretrain_dataset.py", line 92, in __getitem__
+    response = client.text_detection(image=image)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/cloud/vision_helpers/decorators.py", line 113, in inner
+    request, retry=retry, timeout=timeout, metadata=metadata
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/cloud/vision_helpers/__init__.py", line 77, in annotate_image
+    requests=[request], retry=retry, timeout=timeout, metadata=metadata
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/cloud/vision_v1/services/image_annotator/client.py", line 544, in batch_annotate_images
+    metadata=metadata,
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ServiceUnavailable: 503 Authentication backend unavailable.
+
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 1204363) of binary: /home/monajati/miniconda3/envs/vlt6/bin/python
+Traceback (most recent call last):
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/run.py", line 765, in <module>
+    main()
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 345, in wrapper
+    return f(*args, **kwargs)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/run.py", line 761, in main
+    run(args)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/run.py", line 755, in run
+    )(*cmd_args)
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/monajati/miniconda3/envs/vlt6/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+pretrain.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2022-07-16_15:05:09
+  host      : pluslab-a6000
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1204363)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
