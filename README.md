@@ -6,18 +6,10 @@ Note: the repository is mainly adapted from the <a href="https://github.com/sale
 
 To install the dependencies, run <pre/>pip install -r requirements.txt</pre> 
 
-Catalog:
-- [x] Inference demo
-- [x] Pre-trained and finetuned checkpoints
-- [x] Finetuning code for Image-Text Retrieval, Image Captioning, VQA, and NLVR2
-- [x] Pre-training code
-- [x] Zero-shot video-text retrieval
-- [x] Download of bootstrapped pre-training datasets 
-
 ### Dataset:
-The original collected data from PubMed can be found <a href="https://github.com/salesforce/BLIP">here</a>.
+The original collected data from PubMed can be found <a href="https://drive.google.com/drive/folders/1-05iEAHi52K0rL0fkqoXO-yR8wnweWdN?usp=sharing">here</a>.
 
-We used <a href="https://cloud.google.com/vision/docs/ocr">Google OCR</a> and an NLP tool from <a href="https://cloud.google.com/vision/docs/ocr">This paper</a> to preprocess image-caption data into subfigure/subcaption data stored <a href="https://cloud.google.com/vision/docs/ocr">here</a>. 
+We used <a href="https://cloud.google.com/vision/docs/ocr">Google OCR</a> and an NLP tool from <a href="https://cloud.google.com/vision/docs/ocr">This paper</a> to preprocess image-caption data into subfigure/subcaption data stored <a href="">here</a>. 
 
 You may use scrape.py to collect the data from PubMed resources with a proper keyword and number of data.
 
