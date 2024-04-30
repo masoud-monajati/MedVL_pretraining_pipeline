@@ -7,11 +7,9 @@ Note: the repository is mainly adapted from the <a href="https://github.com/sale
 To install the dependencies, run <pre/>pip install -r requirements.txt</pre> 
 
 ### Dataset:
-for sharing the data, please reach out to us.
-
+You may use scrape.py to collect the data from PubMed resources with a proper keyword and number of data. You may also reach out to us for sharing the data discussed in the paper.
 We used <a href="https://cloud.google.com/vision/docs/ocr">Google OCR</a> and an NLP tool from <a href="https://cloud.google.com/vision/docs/ocr">This paper</a> to preprocess image-caption data into subfigure/subcaption data stored <a href="">here</a>. 
 
-You may use scrape.py to collect the data from PubMed resources with a proper keyword and number of data.
 
 ### Pre-train:
 1. Prepare training json files where each json file contains a list. Each item in the list is a dictonary with two key-value pairs: {'image': path_of_image, 'caption': text_of_image}. 
