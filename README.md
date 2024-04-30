@@ -7,7 +7,7 @@ Note: the repository is mainly adapted from the <a href="https://github.com/sale
 To install the dependencies, run <pre/>pip install -r requirements.txt</pre> 
 
 ### Dataset:
-The original collected data from PubMed can be found <a href="https://drive.google.com/drive/folders/1-05iEAHi52K0rL0fkqoXO-yR8wnweWdN?usp=sharing">here</a>.
+for sharing the data, please reach out to us.
 
 We used <a href="https://cloud.google.com/vision/docs/ocr">Google OCR</a> and an NLP tool from <a href="https://cloud.google.com/vision/docs/ocr">This paper</a> to preprocess image-caption data into subfigure/subcaption data stored <a href="">here</a>. 
 
